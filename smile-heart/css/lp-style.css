@@ -219,7 +219,7 @@ img {
 
 html {
   font-size: min(1.3vw, 16px);
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 @media screen and (max-width: 768px) {
   html {
@@ -317,6 +317,7 @@ body * > img {
   color: #fff;
   font-size: min(1.2vw, 17px);
   line-height: 1.2;
+  text-align: center;
   background-color: var(--main-pale-color);
   border-radius: 9999px;
   padding: 0.5em 1.5em;
