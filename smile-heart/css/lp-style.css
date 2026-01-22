@@ -1471,9 +1471,6 @@ body * > img {
     padding: 0 2em;
   }
   .group__catch01 {
-    font-size: 2.1rem;
-  }
-  .group__catch02 {
     font-size: 1rem;
     margin: 0 0 1.3rem;
   }
@@ -1847,6 +1844,7 @@ body * > img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -1910,6 +1908,12 @@ body * > img {
   background-color: #eee;
   border-radius: 9999px;
 }
+.feature-num__heading {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: calc(32 / 16 * 1rem);
+  font-weight: 700;
+  margin: 1em 0 0.5em;
+}
 @media screen and (min-width: 769px) {
   .feature-num__item.-kizokusya .feature-num__img {
     height: 7.5rem;
@@ -1955,6 +1959,9 @@ body * > img {
   }
   .feature-num__category-list li {
     font-size: 1rem;
+  }
+  .feature-num__heading {
+    font-size: 1.4rem;
   }
 }
 
