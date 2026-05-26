@@ -1,5 +1,0 @@
-
-AuthUserFile "/home/xs868350/coaclaunch.com/htpasswd/michiruwa.coaclaunch.com/.htpasswd"
-AuthName "Member Site"
-AuthType BASIC
-require valid-user

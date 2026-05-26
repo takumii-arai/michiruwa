@@ -1,0 +1,57 @@
+# === 大容量素材（手元のみ保存、git管理外）===
+# デザインソース
+*.psd
+*.ai
+*.indd
+*.eps
+*.sketch
+*.fig
+*.xd
+# 動画
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.webm
+# RAW写真
+*.raw
+*.cr2
+*.nef
+*.arw
+*.dng
+# アーカイブ
+*.zip
+*.rar
+*.7z
+*.dmg
+*.iso
+
+# === OS / Office一時 ===
+.DS_Store
+.~lock.*
+Thumbs.db
+desktop.ini
+
+# === エディタ ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Node ===
+node_modules/
+
+# 追加：大容量バックアップ・画像形式
+*.wpress
+*.tif
+*.tiff
+
+# DBダンプ・バックアップ（GitHub Secret Scanning対策）
+*.gz
+*.sql
+*.dump
+*.bak
+_from_downloads/
+
+# 大量assetsはgit管理外（バックアップ用、ローカル保管のみ）
+assets/
